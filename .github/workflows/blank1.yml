@@ -32,7 +32,7 @@ jobs:
       - name: Run a one-line script
         run: ls -ltr
         
-      - name: Run a one-line script
+      - name: print aws access key
         run: echo ${{ secrets.AWS_ACCESS_KEY_ID }}
         
         
