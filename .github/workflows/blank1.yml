@@ -32,6 +32,9 @@ jobs:
       - name: Run a one-line script
         run: ls -ltr
         
+      - name: Run a one-line script
+        run: echo ${{ secrets.AWS_ACCESS_KEY_ID }}
+        
         
               # Runs a single command using the runners shell
       - name: loudalabu
